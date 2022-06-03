@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Frizerski_SalonModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Frizura">
+    <Key>
+      <PropertyRef Name="FrizuraID" />
+    </Key>
+    <Property Name="FrizuraID" Type="int" Nullable="false" />
+    <Property Name="NalogID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Duzina" Type="int" Nullable="false" />
+    <Property Name="Boja" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Preparati" Type="nvarchar" MaxLength="50" />
+    <Property Name="Frizura" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tip" Type="int" Nullable="false" />
+    <Property Name="Gustina" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Komentar">
+    <Key>
+      <PropertyRef Name="KomentarID" />
+    </Key>
+    <Property Name="KomentarID" Type="int" Nullable="false" />
+    <Property Name="FrizuraID" Type="int" Nullable="false" />
+    <Property Name="Sadrzaj" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Ocena" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Nalog">
+    <Key>
+      <PropertyRef Name="NalogID" />
+    </Key>
+    <Property Name="NalogID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Korisnicko_ime" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Sifra" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="TipKorisnika" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Naplata">
+    <Key>
+      <PropertyRef Name="RacunID" />
+    </Key>
+    <Property Name="RacunID" Type="int" Nullable="false" />
+    <Property Name="TipPlacanja" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proizvod">
+    <Key>
+      <PropertyRef Name="ProizvodID" />
+    </Key>
+    <Property Name="ProizvodID" Type="int" Nullable="false" />
+    <Property Name="FrizuraID" Type="int" Nullable="false" />
+    <Property Name="Ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Proizvodjac" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cena" Type="float" Nullable="false" />
+    <Property Name="Dostupnost" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Racun">
+    <Key>
+      <PropertyRef Name="RacunID" />
+    </Key>
+    <Property Name="RacunID" Type="int" Nullable="false" />
+    <Property Name="FrizuraID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+    <Property Name="Vreme" Type="time" Precision="7" Nullable="false" />
+    <Property Name="Vrednost" Type="float" Nullable="false" />
+    <Property Name="Obradjen" Type="bit" Nullable="false" />
+    <Property Name="Storniran" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Termin">
+    <Key>
+      <PropertyRef Name="TerminID" />
+    </Key>
+    <Property Name="TerminID" Type="int" Nullable="false" />
+    <Property Name="FrizuraID" Type="int" Nullable="false" />
+    <Property Name="Datum" Type="date" Nullable="false" />
+    <Property Name="Vreme" Type="time" Precision="7" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Frizura_Nalog">
+    <End Role="Nalog" Type="Self.Nalog" Multiplicity="1" />
+    <End Role="Frizura" Type="Self.Frizura" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nalog">
+        <PropertyRef Name="NalogID" />
+      </Principal>
+      <Dependent Role="Frizura">
+        <PropertyRef Name="NalogID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Komentar_Frizura">
+    <End Role="Frizura" Type="Self.Frizura" Multiplicity="1" />
+    <End Role="Komentar" Type="Self.Komentar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frizura">
+        <PropertyRef Name="FrizuraID" />
+      </Principal>
+      <Dependent Role="Komentar">
+        <PropertyRef Name="FrizuraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Naplata_Racun">
+    <End Role="Racun" Type="Self.Racun" Multiplicity="1" />
+    <End Role="Naplata" Type="Self.Naplata" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Racun">
+        <PropertyRef Name="RacunID" />
+      </Principal>
+      <Dependent Role="Naplata">
+        <PropertyRef Name="RacunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Proizvod_Frizura">
+    <End Role="Frizura" Type="Self.Frizura" Multiplicity="1" />
+    <End Role="Proizvod" Type="Self.Proizvod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frizura">
+        <PropertyRef Name="FrizuraID" />
+      </Principal>
+      <Dependent Role="Proizvod">
+        <PropertyRef Name="FrizuraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Racun_Frizura">
+    <End Role="Frizura" Type="Self.Frizura" Multiplicity="1" />
+    <End Role="Racun" Type="Self.Racun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frizura">
+        <PropertyRef Name="FrizuraID" />
+      </Principal>
+      <Dependent Role="Racun">
+        <PropertyRef Name="FrizuraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Termin_Frizura">
+    <End Role="Frizura" Type="Self.Frizura" Multiplicity="1" />
+    <End Role="Termin" Type="Self.Termin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Frizura">
+        <PropertyRef Name="FrizuraID" />
+      </Principal>
+      <Dependent Role="Termin">
+        <PropertyRef Name="FrizuraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Frizerski_SalonModelStoreContainer">
+    <EntitySet Name="Frizura" EntityType="Self.Frizura" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Komentar" EntityType="Self.Komentar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nalog" EntityType="Self.Nalog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Naplata" EntityType="Self.Naplata" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proizvod" EntityType="Self.Proizvod" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Racun" EntityType="Self.Racun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Termin" EntityType="Self.Termin" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Frizura_Nalog" Association="Self.FK_Frizura_Nalog">
+      <End Role="Nalog" EntitySet="Nalog" />
+      <End Role="Frizura" EntitySet="Frizura" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Komentar_Frizura" Association="Self.FK_Komentar_Frizura">
+      <End Role="Frizura" EntitySet="Frizura" />
+      <End Role="Komentar" EntitySet="Komentar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Naplata_Racun" Association="Self.FK_Naplata_Racun">
+      <End Role="Racun" EntitySet="Racun" />
+      <End Role="Naplata" EntitySet="Naplata" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Proizvod_Frizura" Association="Self.FK_Proizvod_Frizura">
+      <End Role="Frizura" EntitySet="Frizura" />
+      <End Role="Proizvod" EntitySet="Proizvod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Racun_Frizura" Association="Self.FK_Racun_Frizura">
+      <End Role="Frizura" EntitySet="Frizura" />
+      <End Role="Racun" EntitySet="Racun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Termin_Frizura" Association="Self.FK_Termin_Frizura">
+      <End Role="Frizura" EntitySet="Frizura" />
+      <End Role="Termin" EntitySet="Termin" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

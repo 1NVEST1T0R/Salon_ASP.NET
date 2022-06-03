@@ -1,0 +1,80 @@
+﻿@model Salon.Models.Frizura
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Frizura</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Duzina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duzina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Boja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Boja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preparati)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preparati)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizura1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizura1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gustina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gustina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nalog.Korisnicko_ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nalog.Korisnicko_ime)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

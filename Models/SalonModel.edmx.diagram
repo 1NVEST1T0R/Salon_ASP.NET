@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0be012bfa665411eb1730c26d33a3e1c" Name="Diagram1">
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Frizura" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Komentar" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Nalog" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Naplata" Width="1.5" PointX="7.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Proizvod" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Racun" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Frizerski_SalonModel.Termin" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Frizura_Nalog" ManuallyRouted="false" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Komentar_Frizura" ManuallyRouted="false" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Proizvod_Frizura" ManuallyRouted="false" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Racun_Frizura" ManuallyRouted="false" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Termin_Frizura" ManuallyRouted="false" />
+        <AssociationConnector Association="Frizerski_SalonModel.FK_Naplata_Racun" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

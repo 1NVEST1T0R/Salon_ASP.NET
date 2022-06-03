@@ -1,0 +1,74 @@
+﻿@model Salon.Models.Frizura
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Frizura</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Duzina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duzina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Boja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Boja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preparati)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preparati)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizura1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizura1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gustina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gustina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nalog.Korisnicko_ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nalog.Korisnicko_ime)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.FrizuraID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

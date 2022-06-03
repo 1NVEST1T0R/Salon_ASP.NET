@@ -1,0 +1,58 @@
+﻿@model Salon.Models.Proizvod
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Proizvod</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Proizvodjac)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Proizvodjac)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cena)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dostupnost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dostupnost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizura.Boja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizura.Boja)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProizvodID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

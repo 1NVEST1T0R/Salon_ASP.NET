@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Frizerski_SalonModelStoreContainer" CdmEntityContainer="Frizerski_SalonEntities3">
+    <EntitySetMapping Name="Frizura">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Frizura">
+        <MappingFragment StoreEntitySet="Frizura">
+          <ScalarProperty Name="FrizuraID" ColumnName="FrizuraID" />
+          <ScalarProperty Name="NalogID" ColumnName="NalogID" />
+          <ScalarProperty Name="Duzina" ColumnName="Duzina" />
+          <ScalarProperty Name="Boja" ColumnName="Boja" />
+          <ScalarProperty Name="Preparati" ColumnName="Preparati" />
+          <ScalarProperty Name="Frizura1" ColumnName="Frizura" />
+          <ScalarProperty Name="Tip" ColumnName="Tip" />
+          <ScalarProperty Name="Gustina" ColumnName="Gustina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Komentar">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Komentar">
+        <MappingFragment StoreEntitySet="Komentar">
+          <ScalarProperty Name="KomentarID" ColumnName="KomentarID" />
+          <ScalarProperty Name="FrizuraID" ColumnName="FrizuraID" />
+          <ScalarProperty Name="Sadrzaj" ColumnName="Sadrzaj" />
+          <ScalarProperty Name="Ocena" ColumnName="Ocena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nalog">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Nalog">
+        <MappingFragment StoreEntitySet="Nalog">
+          <ScalarProperty Name="NalogID" ColumnName="NalogID" />
+          <ScalarProperty Name="Korisnicko_ime" ColumnName="Korisnicko_ime" />
+          <ScalarProperty Name="Sifra" ColumnName="Sifra" />
+          <ScalarProperty Name="TipKorisnika" ColumnName="TipKorisnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Naplata">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Naplata">
+        <MappingFragment StoreEntitySet="Naplata">
+          <ScalarProperty Name="RacunID" ColumnName="RacunID" />
+          <ScalarProperty Name="TipPlacanja" ColumnName="TipPlacanja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proizvod">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Proizvod">
+        <MappingFragment StoreEntitySet="Proizvod">
+          <ScalarProperty Name="ProizvodID" ColumnName="ProizvodID" />
+          <ScalarProperty Name="FrizuraID" ColumnName="FrizuraID" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Proizvodjac" ColumnName="Proizvodjac" />
+          <ScalarProperty Name="Cena" ColumnName="Cena" />
+          <ScalarProperty Name="Dostupnost" ColumnName="Dostupnost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Racun">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Racun">
+        <MappingFragment StoreEntitySet="Racun">
+          <ScalarProperty Name="RacunID" ColumnName="RacunID" />
+          <ScalarProperty Name="FrizuraID" ColumnName="FrizuraID" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Vreme" ColumnName="Vreme" />
+          <ScalarProperty Name="Vrednost" ColumnName="Vrednost" />
+          <ScalarProperty Name="Obradjen" ColumnName="Obradjen" />
+          <ScalarProperty Name="Storniran" ColumnName="Storniran" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Termin">
+      <EntityTypeMapping TypeName="Frizerski_SalonModel.Termin">
+        <MappingFragment StoreEntitySet="Termin">
+          <ScalarProperty Name="TerminID" ColumnName="TerminID" />
+          <ScalarProperty Name="FrizuraID" ColumnName="FrizuraID" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Vreme" ColumnName="Vreme" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

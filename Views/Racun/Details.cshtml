@@ -1,0 +1,74 @@
+﻿@model Salon.Models.Racun
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Racun</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Datum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vreme)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vreme)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrednost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrednost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Obradjen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Obradjen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Storniran)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Storniran)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizura.Boja)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizura.Boja)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Naplata.RacunID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Naplata.RacunID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RacunID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

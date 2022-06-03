@@ -1,0 +1,166 @@
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Salon.dll.config
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Salon.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Salon.pdb
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csc.exe
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csc.exe.config
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csc.rsp
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csi.exe
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csi.exe.config
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\csi.rsp
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.AppContext.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Console.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.Compression.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Net.Http.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Net.Sockets.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.ValueTuple.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\vbc.exe
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\vbc.exe.config
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\vbc.rsp
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\VBCSCompiler.exe
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Antlr3.Runtime.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\EntityFramework.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\EntityFramework.SqlServer.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Newtonsoft.Json.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Helpers.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Mvc.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Optimization.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Razor.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Razor.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\WebGrease.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\EntityFramework.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\EntityFramework.SqlServer.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Helpers.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Mvc.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Optimization.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.Razor.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Razor.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Newtonsoft.Json.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Antlr3.Runtime.pdb
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.AssemblyReference.cache
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.CoreCompileInputs.cache
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.CopyComplete
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\obj\Debug\Salon.dll
+C:\Users\MataDzi\Desktop\III\Salon - projekat\Salon\Salon\obj\Debug\Salon.pdb
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Salon.dll.config
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Salon.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Salon.pdb
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csc.exe
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csc.exe.config
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csc.rsp
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csi.exe
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csi.exe.config
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\csi.rsp
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.AppContext.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Console.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.Compression.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Net.Http.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Net.Sockets.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.ValueTuple.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\vbc.exe
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\vbc.exe.config
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\vbc.rsp
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\VBCSCompiler.exe
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Antlr3.Runtime.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\EntityFramework.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\EntityFramework.SqlServer.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Newtonsoft.Json.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Helpers.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Mvc.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Optimization.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Razor.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Razor.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\WebGrease.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\EntityFramework.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\EntityFramework.SqlServer.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Helpers.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Mvc.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Optimization.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.Razor.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\System.Web.WebPages.Razor.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Newtonsoft.Json.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Antlr3.Runtime.pdb
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.AssemblyReference.cache
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.CoreCompileInputs.cache
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\obj\Debug\Salon.csproj.CopyComplete
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\obj\Debug\Salon.dll
+C:\Users\MataDzi\Desktop\III\Praktikum primenjenog programiranja\Salon - projekat\Salon\Salon\obj\Debug\Salon.pdb
